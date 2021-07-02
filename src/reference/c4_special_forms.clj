@@ -145,6 +145,3 @@
 (let [m {:a 1 :b 2 :v [3 4 5 6]}
       {a :a b :b [c d e f] :v g :g :or {g 7}} m]
   (println a b c d e f g))
-
-
-
