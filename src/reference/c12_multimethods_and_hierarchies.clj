@@ -34,6 +34,7 @@
 (println (isa? ::square ::shape))
 (println (isa? ::rect ::shape2))
 
+;==============================================================
 ;MULTIMETHOD
 ;Uses isa? for dispatch value matches
 (derive Map ::collection)
