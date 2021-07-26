@@ -1,6 +1,5 @@
 (ns reference.c4-special-forms)
 
-;==============================================================
 ;Special forms - ? (optional) / * (0 or more) / + (1 or more)
 
 ;DEF
@@ -106,7 +105,6 @@
   (finally
     (println "Finally")))
 
-;==============================================================
 ;Binding forms
 
 ;SEQUENTIAL DESTRUCTURING

@@ -1,7 +1,6 @@
 (ns reference.c1-reader
   (:import (java.time LocalDateTime)))
 
-;==============================================================
 ;Forms
 
 ;Strings
@@ -50,7 +49,6 @@ multiline string")
 ;Sets
 (println #{1 2 3})
 
-;==============================================================
 ;Macro characters
 
 ;Quote (')
@@ -107,7 +105,6 @@ multiline string")
 (println `(fred x ~x lst ~@lst 7 8 :nine))
 ;(reference.c1-reader/fred reference.c1-reader/x 5 reference.c1-reader/lst a b c 7 8 :nine)
 
-;==============================================================
 ;Tagged literals
 (defn dot-string
   [s]

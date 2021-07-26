@@ -1,6 +1,5 @@
 (ns reference.c17-vars-and-environments)
 
-;==============================================================
 ;VARS
 ;Vars are static by default
 (def x)

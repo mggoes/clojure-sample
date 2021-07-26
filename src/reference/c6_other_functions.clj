@@ -1,6 +1,5 @@
 (ns reference.c6-other-functions)
 
-;==============================================================
 ;PRINTING
 (println *out*)
 (prn "Test")

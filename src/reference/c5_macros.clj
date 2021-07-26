@@ -1,7 +1,6 @@
 (ns reference.c5-macros
   (:use [clojure.pprint]))
 
-;==============================================================
 ;Macros
 ;Allows us to extend compiler with user code and define syntactic constructs
 ;https://www.braveclojure.com/writing-macros/

@@ -3,7 +3,6 @@
            (java.lang.annotation Retention RetentionPolicy)
            (javax.annotation.processing SupportedOptions)))
 
-;==============================================================
 ;DEFPROTOCOL
 ;Similar to a Java interface
 (defprotocol Polite

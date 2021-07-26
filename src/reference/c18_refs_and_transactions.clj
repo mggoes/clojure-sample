@@ -1,7 +1,6 @@
 (ns reference.c18-refs-and-transactions
   (:use [clojure.pprint]))
 
-;==============================================================
 ;REF
 (def params (ref {}))
 (pprint @params)

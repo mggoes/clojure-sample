@@ -1,6 +1,5 @@
 (ns reference.c11-transducers)
 
-;==============================================================
 ;TRANSDUCERS
 ;It is a transformation of one reduce function to another
 ;Some functions produce a transducer when the input collection is omitted

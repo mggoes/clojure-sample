@@ -2,7 +2,6 @@
   (:use [clojure.pprint])
   (:import (java.util.concurrent SynchronousQueue)))
 
-;==============================================================
 ;AGENT
 ;Supports asynchronous changes according to the result of an action
 (defn change-agent

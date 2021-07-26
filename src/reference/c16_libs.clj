@@ -6,8 +6,6 @@
   (:use [clojure.string :only [join]])
   (:require [clojure.java.io :as jio]))
 
-;==============================================================
-
 ;(:import java.util.Date
 ;           java.util.Calendar)
 (println (Date.))

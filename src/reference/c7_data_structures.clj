@@ -1,6 +1,5 @@
 (ns reference.c7-data-structures)
 
-;==============================================================
 ;NIL
 ;Same as null
 (println nil)

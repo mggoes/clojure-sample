@@ -1,6 +1,5 @@
 (ns reference.c3-evaluation)
 
-;==============================================================
 ;Empty list
 (println (class ()))
 

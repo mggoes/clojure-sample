@@ -1,6 +1,5 @@
 (ns reference.c10-transients)
 
-;==============================================================
 ;TRANSIENTS
 ;Are fast!
 ;Provides high performance optimization

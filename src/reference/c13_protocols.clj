@@ -1,7 +1,6 @@
 (ns reference.c13-protocols
   (:import (clojure.lang PersistentArrayMap)))
 
-;==============================================================
 ;PROTOCOLS
 ;Function definitions must take at least one argument
 (defprotocol MyProtocol

@@ -1,7 +1,6 @@
 (ns reference.c20-atoms
   (:use [clojure.pprint]))
 
-;==============================================================
 ;ATOM
 ;Similar to refs and agents
 ;Does not need transactions to change the value

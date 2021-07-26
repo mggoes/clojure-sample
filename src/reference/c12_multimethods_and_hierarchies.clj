@@ -1,7 +1,6 @@
 (ns reference.c12-multimethods-and-hierarchies
   (:import (java.util ArrayList Map HashMap Collection)))
 
-;==============================================================
 ;HIERARCHIES
 (println ::test)
 
@@ -34,7 +33,6 @@
 (println (isa? ::square ::shape))
 (println (isa? ::rect ::shape2))
 
-;==============================================================
 ;MULTIMETHOD
 ;Uses isa? for dispatch value matches
 (derive Map ::collection)

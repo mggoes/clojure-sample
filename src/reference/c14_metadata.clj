@@ -1,7 +1,6 @@
 (ns reference.c14-metadata
   (:use [clojure.pprint]))
 
-;==============================================================
 ;METADATA
 ;It is a map of data about a symbol or a collection
 

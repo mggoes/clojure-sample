@@ -1,6 +1,5 @@
 (ns reference.c2-repl-and-main)
 
-;==============================================================
 ;CLJ
 ;Command clj invoke clojure.main
 ;Run a clojure file: clj -M c2_repl_and_main.clj

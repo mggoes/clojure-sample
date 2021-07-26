@@ -1,4 +1,3 @@
-;==============================================================
 ;NAMESPACES
 ;Are created by the ns macro
 ;By default ns macro will create a namespace containing mappings for java.lang classes, clojure.lang.Compiler and clojure.core functions
