@@ -21,3 +21,12 @@
 (println (memoized-slow-function "Done 2"))
 (println (memoized-slow-function "Done 2"))
 (println (memoized-slow-function "Done 3"))
+
+;EVAL
+;Evaluates the form
+(println (eval '(+ 1 2)))
+
+;READ-STRING
+;Reads a string and produces a data structure
+(println (read-string "(+ 1 2)"))
+(println (eval (read-string "(+ 1 2)")))
