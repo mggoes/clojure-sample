@@ -30,3 +30,24 @@
 ;Reads a string and produces a data structure
 (println (read-string "(+ 1 2)"))
 (println (eval (read-string "(+ 1 2)")))
+
+;FUTURE
+;Creates and executes a task on another thread
+(def task (future (Thread/sleep 3000)
+            (println "Done!")
+            "Task done!"))
+(println @task)
+(println (realized? task))
+
+;DELAY
+;Creates a task to be executed on another thread when deref or force is called
+(def message (delay (Thread/sleep 2000)
+               "Some message!"))
+(println (force message))
+(println @message)
+
+;PROMISE
+;Creates a promise that can be read. A result can be provided once later
+(def pro (promise))
+(deliver pro "Promise")
+(println @pro)
