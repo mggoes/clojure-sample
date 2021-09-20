@@ -140,3 +140,15 @@
 (time (dorun (map #(str "Number " %) data)))
 (time (dorun (pmap #(str "Number " %) data)))
 
+;PROTOCOLS
+;Extends multiple protocols at once
+(defprotocol Greeter (greetings [value]))
+(extend-protocol Greeter
+  String
+  (greetings [value] (println "Hello" value "(String)"))
+
+  Object
+  (greetings [value] (println "Hello" value "(Object)")))
+
+(greetings "Matheus")
+(greetings {:name "Matheus"})
